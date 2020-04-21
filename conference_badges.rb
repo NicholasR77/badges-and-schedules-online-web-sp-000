@@ -1,6 +1,7 @@
 # Write your code here.
 
 names = ["John", "Deshawn", "Bill", "Jennie"]
+speakers = ["John", "Deshawn", "Bill", "Jennie"]
 
 def badge_maker(name)
   return "Hello, my name is #{name}"
@@ -15,4 +16,5 @@ end
 
 def printer
   puts batch_badge_creator(names)
+
 end
