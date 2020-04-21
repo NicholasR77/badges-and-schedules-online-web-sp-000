@@ -1,7 +1,7 @@
 # Write your code here.
 
 names = ["John", "Deshawn", "Bill", "Jennie"]
-speakers = ["John", "Deshawn", "Bill", "Jennie"]
+speakers = ["Ash", "Misty", "Brock"]
 
 def badge_maker(name)
   return "Hello, my name is #{name}"
