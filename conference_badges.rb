@@ -5,7 +5,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(names)
-  names.collect {|name| badge_maker(name)}
+  puts names.collect {|name| badge_maker(name)}
 end
 
 def assign_rooms(speakers)
@@ -13,6 +13,6 @@ def assign_rooms(speakers)
 end
 
 def printer(people)
-  puts batch_badge_creator(people)
+   batch_badge_creator(people)
   puts assign_rooms(people)
 end
