@@ -13,7 +13,6 @@ end
 
 def assign_rooms(speakers)
   speakers.collect{|speaker|"Hello, #{speaker}! You'll be assigned to room #{speaker.index(speaker)}"}
-  end
 end
 
 def printer(names, speakers)
