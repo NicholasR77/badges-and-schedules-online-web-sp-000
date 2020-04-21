@@ -12,7 +12,7 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(speakers)
-  speakers.collect.with_index {|speaker, position|"Hello, #{speaker}! You'll be assigned to room #{position+1}"}
+  speakers.collect.with_index {|speaker, position|"Hello, #{speaker}! You'll be assigned to room #{position + 1}"}
 end
 
 def printer(names, speakers)
