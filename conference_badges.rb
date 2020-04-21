@@ -13,4 +13,4 @@ end
 def assign_rooms(speakers)
 end
 
-batch_badge_creator(names)
+puts batch_badge_creator(names)
