@@ -5,7 +5,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(names)
-  return badge_maker
+  names.collect {|badge| badge_maker(badge)}
 end
 
 def assign_rooms(speakers)
