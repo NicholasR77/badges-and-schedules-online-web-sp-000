@@ -1,6 +1,6 @@
 # Write your code here.
 
-names = ["John", "Austin", "Bill", "Jennie"]
+names = ["John", "Deshawn", "Bill", "Jennie"]
 
 def badge_maker(name)
   return "Hello, my name is #{name}"
