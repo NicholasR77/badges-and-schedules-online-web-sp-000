@@ -12,6 +12,9 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(speakers)
+  speakers.collect do |speaker|
+    
+  end
 end
 
 def printer(names, speakers)
